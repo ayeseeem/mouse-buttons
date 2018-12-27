@@ -19,3 +19,13 @@ You might need to change the path in [`build.bat`](./build.bat) to find a
 suitable `csc.exe` on your system.
 Obvious changes would be to use a different version number, or to use
 `Framework64` instead of `Framework64`.
+
+License
+-------
+
+This work is dual-licensed under Apache 2.0 and GPL 2.0 (or any later version).
+You can choose between one of them if you use this work.
+
+`SPDX-License-Identifier: Apache-2.0 OR GPL-2.0-or-later`
+
+Alternate licensing arrangements are possible, contact us for details.
