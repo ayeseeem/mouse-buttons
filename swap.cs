@@ -12,16 +12,7 @@ class SwapMouse
     {
         if (args.Length == 0) 
         {
-            // try to toggle
-            bool swapped = SystemInformation.MouseButtonsSwapped;
-            if (swapped)
-            {
-                SetButtonsNormal();
-            }
-            else
-            {
-                SetButtonsSwapped();
-            }
+            SwapButtons();
         }
         else if (args.Length > 0 && String.Compare(args[0], "/R", true) == 0)
             // set for right-handed
@@ -39,6 +30,20 @@ class SwapMouse
         }
     }
 
+    static void SwapButtons()
+    {
+        // try to toggle
+        bool swapped = SystemInformation.MouseButtonsSwapped;
+        if (swapped)
+        {
+            SetButtonsNormal();
+        }
+        else
+        {
+            SetButtonsSwapped();
+        }
+    }
+
     static void SetButtonsNormal()
     {
         SwapMouseButton(0);
@@ -48,4 +53,5 @@ class SwapMouse
     {
         SwapMouseButton(1);
     }
+
 }
