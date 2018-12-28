@@ -6,7 +6,7 @@ using System.Windows.Forms;
 class SwapMouse
 {
     [DllImport("user32.dll")]
-    public static extern Int32 SwapMouseButton(Int32 bSwap);
+    static extern Int32 SwapMouseButton(Int32 bSwap);
 
     static void Main(string[] args)
     {
