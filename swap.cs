@@ -22,12 +22,16 @@ class SwapMouse
             SetButtonsSwapped();
         else
         {
-            // Help
-            Console.WriteLine("swaps the mouse buttons");
-            Console.WriteLine(" no args - toggles left and right");
-            Console.WriteLine(" /R - set for normal Right-handed use");
-            Console.WriteLine(" /L - set for normal Left-handed use");
+            PrintUsage();
         }
+    }
+
+    static void PrintUsage()
+    {
+        Console.WriteLine("swaps the mouse buttons");
+        Console.WriteLine(" no args - toggles left and right");
+        Console.WriteLine(" /R - set for normal Right-handed use");
+        Console.WriteLine(" /L - set for normal Left-handed use");
     }
 
     static void SwapButtons()
