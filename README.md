@@ -18,7 +18,7 @@ I have successfully built and run the code on Windows 7 and Windows 10.
 You might need to change the path in [`build.bat`](./build.bat) to find a
 suitable `csc.exe` on your system.
 Obvious changes would be to use a different version number, or to use
-`Framework64` instead of `Framework64`.
+`Framework64` instead of `Framework`.
 
 License
 -------
