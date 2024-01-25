@@ -28,4 +28,4 @@ You can choose between one of them if you use this work.
 
 `SPDX-License-Identifier: Apache-2.0 OR GPL-2.0-or-later`
 
-Alternate licensing arrangements are possible, contact us for details.
+Alternative licensing arrangements are possible, contact us for details.
