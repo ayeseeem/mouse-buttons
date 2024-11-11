@@ -13,12 +13,18 @@ It was originally inspired by answers on
 particularly <https://stackoverflow.com/a/4806576>
 and <https://stackoverflow.com/a/10509038>.
 
-I have successfully built and run the code on Windows 7 and Windows 10.
+I have successfully built and run the code on Windows 7, Windows 10, and Windows 11.
 
 You might need to change the path in [`build.bat`](./build.bat) to find a
 suitable `csc.exe` on your system.
 Obvious changes would be to use a different version number, or to use
 `Framework64` instead of `Framework`.
+
+At the moment, it attempts to use the latest .NET Framework 4.x.
+The build file includes a commented out example for the very old .NET Framework 3.5.
+See the
+[.NET Support Policy](https://dotnet.microsoft.com/en-us/platform/support/policy)
+for more.
 
 
 License
