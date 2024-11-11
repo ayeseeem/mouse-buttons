@@ -42,8 +42,10 @@ Installation
 ------------
 
 Very useful if you "right-click"`*` on the `.exe` and then "Pin to Taskbar".
+
 Edit the properties (via "right-click") to change the icon: use a system
-icon for a mouse.
+icon for a mouse - look in the default `shell32.dll`, or in
+`DDORes.dll`, both found in `%SystemRoot%\System32\`.
 
 - `*` "right-click" depends on which way you have your mouse set, which can
   become confusing.
