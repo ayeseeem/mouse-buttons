@@ -47,6 +47,11 @@ Edit the properties (via "right-click") to change the icon: use a system
 icon for a mouse - look in the default `shell32.dll`, or in
 `DDORes.dll`, both found in `%SystemRoot%\System32\`.
 
+If you want to set the name/tooltip for the Taskbar button, the easiest way is
+not to pin the `.exe` itself. Instead, create a shortcut to it, rename the
+shortcut to something more expressive (like "Swap mouse buttons"), set the icon
+on the shortcut, then pin the _shortcut_ to the Taskbar.
+
 - `*` "right-click" depends on which way you have your mouse set, which can
   become confusing.
   Also, "right-click" should really be "Alt-click", but people interpret that
